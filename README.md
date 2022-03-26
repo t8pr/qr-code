@@ -1,2 +1,2 @@
 Simple Project - Qr Code Generator -
-![qr-icon](https://user-images.githubusercontent.com/74245727/160223014-3296927d-03e1-4098-b2b6-c79db8c371f6.png)
+![QR_code_for_mobile_English_Wikipedia svg](https://user-images.githubusercontent.com/74245727/160223075-5f79240d-c545-4945-bb86-e1abc580e56a.png)
