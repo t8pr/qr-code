@@ -38,7 +38,7 @@ hr {
 .card {
     margin: 2pc auto;
     width: 25rem;
-    height: 35rem;
+    height: 30rem;
     box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
     border-radius: 15px;
     background: #e0e0e0;
@@ -47,6 +47,9 @@ hr {
 @media screen and (max-width: 430px) {
     .card {
         width: 22rem;
+    }
+    .content h1 {
+        font-size: 25px;
     }
 }
 .search {
@@ -99,12 +102,12 @@ hr {
     padding: 10px;
 }
 
-.download {
+.down {
     text-align: center;
-    margin-top: 2pc;
+    margin-top: 3pc;
 }
 
-.download a {
+.down a {
     font-size: 20px;
     color: #fff;
     background: #4848f5;
@@ -112,8 +115,46 @@ hr {
     border-radius: 10px;
     text-transform: uppercase;
     transition: all 0.5s;
+    display: none;
 }
 
-.download a:hover {
+.down a:hover {
     background: #3535e7;
+}
+
+.empty {
+    text-align: center;
+    margin-top: 3pc;
+}
+
+.empty h2 {
+    font-size: 20px;
+    color: #fff;
+    background: #af0a00;
+    padding: 12px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    display: none;
+}
+
+.made {
+    text-align: center;
+    color: #ddd;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+.made a {
+    color: #4848f5;
+    border: 2px #ddd solid;
+    padding: 3px 10px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.made a:hover {
+    background-color: #4848f5;
+    color: #ddd;
 }
