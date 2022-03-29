@@ -13,6 +13,7 @@ function gen() {
     if (qrcode == "https://api.qrserver.com/v1/create-qr-code/?size=300x300&data="){
         emptyh2.style.display = "inline-block";
         down.style.display = "none";
+        qrimg.src = '/images/qr-icon.png'
     }
     else {
         emptyh2.style.display = "none";
